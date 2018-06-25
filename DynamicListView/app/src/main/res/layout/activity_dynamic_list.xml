@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".DynamicList">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        android:inputType="text"
+        android:hint="Player Name"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/add"
+        android:text="Add"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="140dp"
+        android:textSize="20dp"
+        android:onClick="adding"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_view">
+
+
+        </ListView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="This is the List of world`s best Footballers"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="12dp"
+        android:textStyle="italic"/>
+
+</LinearLayout>

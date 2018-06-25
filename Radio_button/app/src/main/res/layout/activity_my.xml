@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MyActivity">
+
+    <TextView
+        android:text="Select your SEX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="4mm"
+        android:layout_marginLeft="80dp"/>
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:textSize="2.5mm"
+            android:id="@+id/male"
+            android:onClick="clicked"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:textSize="2.5mm"
+            android:id="@+id/female"
+            android:layout_marginLeft="25dp"
+            android:onClick="clicked"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Both"
+            android:textSize="2.5mm"
+            android:id="@+id/both"
+            android:layout_marginLeft="25dp"
+            android:onClick="clicked"/>
+        </RadioGroup>
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+<item 
+    android:title="Goofie"
+    android:id="@+id/menuGoofie"
+    />
+
+<item 
+    android:title="Donal"
+    android:id="@+id/menuDonald"
+    />
+
+<item 
+    android:title="Jerry"
+    android:id="@+id/menuJerry"
+    />
+
+</menu>

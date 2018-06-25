@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1260FF"
+    android:scrollbars="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Heading"
+        android:id="@+id/new_heading"
+        android:gravity="center_horizontal"
+        android:singleLine="true"
+        android:textSize="50dp"
+        android:textStyle="normal|italic"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:hint="Enter Heading"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:autoText="false"
+        android:id="@+id/heading_edit_new_notice"
+        android:textStyle="italic"
+        android:maxLength="1"
+        android:layout_below="@+id/new_heading"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Your text goes here.."
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+
+        android:textColor="#000000"
+        android:background="#FFFFFF"
+        android:layout_marginTop="30dp"
+        android:minLines="11"
+        android:layout_below="@+id/heading_edit_new_notice"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/message_new_notice"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Draft"
+        android:id="@+id/draft_new_notice"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"/>
+
+</RelativeLayout>

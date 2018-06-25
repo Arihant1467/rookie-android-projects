@@ -1,0 +1,21 @@
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="446dp"
+        android:id="@+id/listview_forecast"
+        android:layout_gravity="center_horizontal|bottom"
+        android:background="@drawable/abc_ab_bottom_transparent_dark_holo"
+        android:entries="@array/Weather_Array"
+        android:clickable="false"
+        android:fastScrollEnabled="false" />
+
+    <AnalogClock
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/analogClock"
+        android:layout_gravity="right|top" />
+</FrameLayout>

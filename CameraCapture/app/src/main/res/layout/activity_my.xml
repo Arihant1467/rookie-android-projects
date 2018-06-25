@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MyActivity">
+
+   <FrameLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:id="@+id/frame1"
+       android:layout_margin="2dp"
+       android:background="#ab6a9afe"
+       >
+       </FrameLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="capture"
+        android:layout_alignBottom="@id/frame1"
+        android:id="@+id/btncapture"
+        android:onClick="myaction"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnreset"
+        android:layout_alignBottom="@id/frame1"
+        android:text="reset"
+        android:layout_alignRight="@id/frame1"
+        android:onClick="myaction"
+        />
+
+</RelativeLayout>

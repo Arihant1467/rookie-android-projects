@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WeatherApplication</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="Weather_Array">
+        <item>Today-Sunny-88/63</item>
+        <item>Tommorow-Foggy-70/46</item>
+        <item>Wednesday-cloudy-72/63</item>
+        <item>Thursday-Rainy-64/55</item>
+        <item>Friday-Foggy-70/46</item>
+        <item>Saturday-Sunny-76/68</item>
+    </string-array>
+
+</resources>

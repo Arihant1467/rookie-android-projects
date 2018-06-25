@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="B:\AndroidProjects\AndroidCustomGridView\app\src\main\res" >
+            <file
+                name="ic_launcher"
+                path="B:\AndroidProjects\AndroidCustomGridView\app\src\main\res\drawable-hdpi\ic_launcher.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="B:\AndroidProjects\AndroidCustomGridView\app\src\main\res\drawable-mdpi\ic_launcher.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="B:\AndroidProjects\AndroidCustomGridView\app\src\main\res\drawable-xhdpi\ic_launcher.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="image1"
+                path="B:\AndroidProjects\AndroidCustomGridView\app\src\main\res\drawable-xhdpi\image1.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="image10"
+                path="B:\AndroidProjects\AndroidCustomGridView\app\src\main\res\drawable-xhdpi\image10.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="image11"
+                path="B:\AndroidProjects\AndroidCustomGridView\app\src\main\res\drawable-xhdpi\image11.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="image12"
+                path="B:\AndroidProjects\AndroidCustomGridView\app\src\main\res\drawable-xhdpi\image12.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="image13"
+                path="B:\AndroidProjects\AndroidCustomGridView\app\src\main\res\drawable-xhdpi\image13.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="image14"
+                path="B:\AndroidProjects\AndroidCustomGridView\app\src\main\res\drawable-xhdpi\image14.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="image15"
+                path="B:\AndroidProjects\AndroidCustomGridView\app\src\main\res\drawable-xhdpi\image15.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="image2"
+                path="B:\AndroidProjects\AndroidCustomGridView\app\src\main\res\drawable-xhdpi\image2.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="image3"
+                path="B:\AndroidProjects\AndroidCustomGridView\app\src\main\res\drawable-xhdpi\image3.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="image4"
+                path="B:\AndroidProjects\AndroidCustomGridView\app\src\main\res\drawable-xhdpi\image4.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="image5"
+                path="B:\AndroidProjects\AndroidCustomGridView\app\src\main\res\drawable-xhdpi\image5.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="image6"
+                path="B:\AndroidProjects\AndroidCustomGridView\app\src\main\res\drawable-xhdpi\image6.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="image7"
+                path="B:\AndroidProjects\AndroidCustomGridView\app\src\main\res\drawable-xhdpi\image7.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="image8"
+                path="B:\AndroidProjects\AndroidCustomGridView\app\src\main\res\drawable-xhdpi\image8.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="image9"
+                path="B:\AndroidProjects\AndroidCustomGridView\app\src\main\res\drawable-xhdpi\image9.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="B:\AndroidProjects\AndroidCustomGridView\app\src\main\res\drawable-xxhdpi\ic_launcher.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="activity_main"
+                path="B:\AndroidProjects\AndroidCustomGridView\app\src\main\res\layout\activity_main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="grid_single"
+                path="B:\AndroidProjects\AndroidCustomGridView\app\src\main\res\layout\grid_single.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="main"
+                path="B:\AndroidProjects\AndroidCustomGridView\app\src\main\res\menu\main.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                path="B:\AndroidProjects\AndroidCustomGridView\app\src\main\res\values\dimens.xml"
+                qualifiers="" >
+                <dimen name="activity_vertical_margin" >16dp
+                </dimen>
+                <dimen name="activity_horizontal_margin" >16dp
+                </dimen>
+            </file>
+            <file
+                path="B:\AndroidProjects\AndroidCustomGridView\app\src\main\res\values\strings.xml"
+                qualifiers="" >
+                <string name="hello_world" >Hello world!
+                </string>
+                <string name="action_settings" >Settings
+                </string>
+                <string name="app_name" >Android Custom GridView
+                </string>
+            </file>
+            <file
+                path="B:\AndroidProjects\AndroidCustomGridView\app\src\main\res\values\styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppTheme"
+                    parent="AppBaseTheme" >
+
+                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+                </style>
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Light" >
+
+                    <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+                    -->
+                </style>
+            </file>
+            <file
+                path="B:\AndroidProjects\AndroidCustomGridView\app\src\main\res\values-sw720dp-land\dimens.xml"
+                qualifiers="sw720dp-land-v13" >
+                <dimen name="activity_horizontal_margin" >128dp
+                </dimen>
+            </file>
+            <file
+                path="B:\AndroidProjects\AndroidCustomGridView\app\src\main\res\values-v11\styles.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light" >
+
+                    <!-- API 11 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                path="B:\AndroidProjects\AndroidCustomGridView\app\src\main\res\values-v14\styles.xml"
+                qualifiers="v14" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- API 14 theme customizations can go here. -->
+                </style>
+            </file>
+        </source>
+        <source path="B:\AndroidProjects\AndroidCustomGridView\app\build\generated\res\rs\debug" />
+        <source path="B:\AndroidProjects\AndroidCustomGridView\app\build\generated\res\generated\debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="B:\AndroidProjects\AndroidCustomGridView\app\src\debug\res" />
+    </dataSet>
+
+</merger>
